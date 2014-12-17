@@ -1,4 +1,4 @@
-# FxStreet
+# FXStreet
 
 TODO: Write a gem description
 

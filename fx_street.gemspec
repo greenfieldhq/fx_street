@@ -5,12 +5,12 @@ require 'fx_street/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "fx_street"
-  spec.version       = FxStreet::VERSION
+  spec.version       = FXStreet::VERSION
   spec.authors       = ["Eric Kelly"]
   spec.email         = ["heroiceric@gmail.com"]
   spec.summary       = %q{Wrapper for the FXstreet API}
   spec.description   = %q{Wrapper for the FXstreet API}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/greenfieldhq/fx_street"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")

@@ -3,7 +3,7 @@ require "faraday"
 require "faraday_middleware"
 require "rash"
 
-module FxStreet
+module FXStreet
   class Client
     attr_reader :client_id, :client_secret
 

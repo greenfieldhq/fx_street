@@ -1,6 +1,6 @@
 require "fx_street/client"
 require "fx_street/version"
 
-module FxStreet
+module FXStreet
   # Your code goes here...
 end
