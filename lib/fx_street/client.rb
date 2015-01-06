@@ -40,7 +40,7 @@ module FXStreet
     end
 
     def get(url, params={})
-      connection.get(url, params.merge(default_params)).body
+      connection.get(url, default_params.merge(params)).body
     end
 
     def host
