@@ -21,7 +21,10 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_dependency "faraday", "~> 0.9.0"
-  spec.add_dependency "faraday_middleware", "~> 0.9.0"
-  spec.add_dependency "rash", "~> 0.4.0"
+  spec.add_dependency "faraday", "~> 1.0.0"
+  spec.add_dependency "faraday_middleware", "~> 1.0.0"
+  # Replace rash gem with the rash_alt gem
+  # https://github.com/lostisland/faraday_middleware/tree/243239feedb9713ff89479c4b6535ea709d014fa
+  # https://github.com/lostisland/faraday_middleware/pull/136
+  spec.add_dependency "rash_alt", "~> 0.4.12"
 end
